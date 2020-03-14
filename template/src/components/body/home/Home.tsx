@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { setCounter, ISetCounter } from "../../../redux/Actions";
+import { setCounter, ISetCounter } from "../../../redux/actions";
 import I from "immutable";
 
 interface IProps {

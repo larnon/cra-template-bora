@@ -7,6 +7,7 @@ export type Action = {
 };
 
 export default function(state = I.Map(), action: Action) {
+  console.log("prevStore(from reducer.ts) = ");
   switch (action.type) {
     case actionTypes.SET_COUNTER: {
       return state.set("counter", action.data);
