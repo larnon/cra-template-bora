@@ -1,6 +1,8 @@
 import React from "react";
 
-const Footer: React.FunctionComponent<{}> = () => {
+import "./Footer.scss";
+
+const Footer: React.FC<{}> = () => {
   return <div>Footer</div>;
 };
 

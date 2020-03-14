@@ -1,4 +1,4 @@
-@use './assets/fonts/fonts.scss';
+@import "./assets/fonts/fonts.css";
 
 .body {
   margin: 0;
@@ -7,6 +7,13 @@
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: inherit;
+  height: inherit;
 }
 
 .code {

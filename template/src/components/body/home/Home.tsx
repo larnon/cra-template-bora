@@ -8,7 +8,7 @@ interface IProps {
   counter: number;
 }
 
-const Home: React.FunctionComponent<IProps> = (props) => {
+const Home: React.FC<IProps> = (props) => {
   return (
     <div>
       <button onClick={() => props.setCounter(Math.round(Math.random() * 100))}>

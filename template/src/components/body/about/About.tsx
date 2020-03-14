@@ -1,6 +1,6 @@
 import React from "react";
 
-const About: React.FunctionComponent<{}> = () => {
+const About: React.FC<{}> = () => {
   return <div> About Page </div>;
 };
 

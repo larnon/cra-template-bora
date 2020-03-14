@@ -1,6 +1,6 @@
 # cra-template-bora
 
-This is a custom create-react-app template extended from the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
+This is a custom create-react-app template extended from the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app). It includes React-Router-Dom, Redux, React-Redux, Immutable.js and Node-Sass.
 
 To use this template, add `--template bora` when creating a new app.
 

@@ -1,6 +1,6 @@
 {
   "name": "cra-template-bora",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "react",
     "create-react-app",
@@ -11,7 +11,7 @@
     "sass",
     "immutable"
   ],
-  "description": "The base TypeScript template for Create React App, extended with SASS, Router, Redux and Immutable.",
+  "description": "The base TypeScript template for Create React App, extended with Router, Redux, SASS and Immutable.",
   "main": "template.json",
   "repository": {
     "type": "git",

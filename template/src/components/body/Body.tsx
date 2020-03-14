@@ -5,7 +5,7 @@ import About from "./about/About";
 
 import { Switch, Route } from "react-router-dom";
 
-const Body: React.FunctionComponent<{}> = () => {
+const Body: React.FC<{}> = () => {
   return (
     <Switch>
       <Route path="/about">

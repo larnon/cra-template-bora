@@ -1,7 +1,7 @@
-import actionTypes from "./ActionTypes";
+import actionTypes from "./actionTypes";
 import I from "immutable";
 
-type Action = {
+export type Action = {
   type: string;
   data: any;
 };
